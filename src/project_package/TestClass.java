@@ -24,7 +24,7 @@ public class TestClass extends MainUtil {
 						
 			// all products listed on the current page
 			List<WebElement> listedProducts = findElementsClass("carousel-lazy-item", null);
-			Thread.sleep(10000);
+			Thread.sleep(1000);
 			
 			// clicked on the first row product
 			click(listedProducts.stream().findFirst().get());
